@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: Output Github context
         run: echo "${{ toJSON(github) }}"
+      - name: Output Github context - nested object
+        run: echo "${{ toJSON(github.event) }}"
       
