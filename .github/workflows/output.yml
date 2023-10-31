@@ -1,7 +1,7 @@
 name: Output
 on: [workflow_dispatch]
 jobs:
-  test:
+  print-output:
     runs-on: ubuntu-latest
     steps:
       - name: Output Github context
